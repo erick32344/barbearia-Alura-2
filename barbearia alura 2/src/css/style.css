@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+.cabecalho {
+  background-color: rgb(126, 126, 126);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cabecalho img {
+  max-width: 100%;
+}
+.cabecalho nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cabecalho a {
+  color: #ffffff;
+  font-size: 19px;
+  text-shadow: 1px 1px 10px #000000;
+}
+.cabecalho a:hover {
+  text-decoration: underline;
+  color: rgb(255, 68, 0);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 25px;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.card_conteudo {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.368627451);
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  transition: 0.2s;
+}
+.card_conteudo img {
+  max-width: 100%;
+}
+
+.card_conteudo:hover {
+  border-color: rgb(255, 68, 0);
+  padding: 15px;
+}
+
+.rodape {
+  background-image: url(../imagens/bg.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-bottom: 15px;
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */

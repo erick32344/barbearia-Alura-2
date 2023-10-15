@@ -1,0 +1,10 @@
+.rodape {
+  background-image: url(../imagens/bg.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-bottom: 15px;
+  color: $branco-normal;
+}

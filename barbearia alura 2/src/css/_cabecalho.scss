@@ -1,0 +1,28 @@
+.cabecalho {
+  background-color: $cinza-normal;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  img {
+    max-width: 100%;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  a {
+    color: $branco-normal;
+    font-size: 19px;
+    text-shadow: 1px 1px 10px $black-normal;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: $laranja-normal;
+  }
+}
